@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias de Gimnasios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .news-item {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .news-item img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .news-item h2 {
+            color: #333;
+            text-align: center;
+        }
+        .news-item p {
+            color: #666;
+            text-align: center;
+        }
+        .news-item a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .news-item a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .news-item {
+                padding: 15px;
+                margin: 15px 0;
+            }
+            .news-item h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticias de Gimnasios</h1>
+    </header>
+    <div class="container">
+        <div class="news-item">
+            <img src="images/gym1.jpg" alt="Apertura de Nueva Sede en Madrid">
+            <h2>Apertura de Nueva Sede en Madrid</h2>
+            <p>Estamos emocionados de anunciar la apertura de nuestra nueva sede en Madrid. La nueva instalación cuenta con equipos de última generación y amplias áreas para entrenamiento.</p>
+            <a href="detalle1.html">Leer más</a>
+        </div>
+        <div class="news-item">
+            <img src="images/yoga.jpg" alt="Clase Magistral de Yoga con Expertos Internacionales">
+            <h2>Clase Magistral de Yoga con Expertos Internacionales</h2>
+            <p>Únase a nosotros para una clase magistral de yoga con renombrados expertos internacionales. La clase se llevará a cabo el próximo sábado y está abierta a todos los niveles.</p>
+            <a href="detalle2.html">Leer más</a>
+        </div>
+        <div class="news-item">
+            <img src="images/discount.jpg" alt="Descuento Especial de Verano en Membresías">
+            <h2>Descuento Especial de Verano en Membresías</h2>
+            <p>Aprovecha nuestro descuento especial de verano en todas las membresías. Ofrecemos un 20% de descuento en todas las inscripciones realizadas durante el mes de junio.</p>
+            <a href="detalle3.html">Leer más</a>
+        </div>
+        <div class="news-item">
+            <img src="images/training.jpg" alt="Nuevos Programas de Entrenamiento Personalizado">
+            <h2>Nuevos Programas de Entrenamiento Personalizado</h2>
+            <p>Presentamos nuestros nuevos programas de entrenamiento personalizado. Nuestros entrenadores certificados te ayudarán a alcanzar tus objetivos de fitness con planes adaptados a tus necesidades.</p>
+            <a href="detalle4.html">Leer más</a>
+        </div>
+        <div class="news-item">
+            <img src="images/weights.jpg" alt="Competencia de Levantamiento de Pesas">
+            <h2>Competencia de Levantamiento de Pesas</h2>
+            <p>Invitamos a todos nuestros miembros a participar en la próxima competencia de levantamiento de pesas. La competencia se llevará a cabo en nuestras instalaciones el próximo mes.</p>
+            <a href="detalle5.html">Leer más</a>
+        </div>
+    </div>
+</body>
+</html>
